@@ -6,3 +6,5 @@
 @import "./utilidades/componentes.css";
 /* Home */
 @import "./home/introducao.css";
+/* Bicicletas lista*/
+@import "./bibicletas/bicicletas-lista.css";

@@ -6,10 +6,7 @@
   box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: var(--cor-p5);
-  font-size: 18px;
-  line-height: 1.333;
-  font-family: "Poppins";
-  font-weight: 600;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
 
 .botao:hover {
@@ -18,21 +15,21 @@
 
 @media (max-width: 1200px) {
   .botao {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 14px 28px;
   }
 }
 
 @media (max-width: 800px) {
   .botao {
-    font-size: 14px;
+    font-size: 0.85rem;
     padding: 10px 24px;
   }
 }
 
 @media (max-width: 600px) {
   .botao {
-    font-size: 12px;
+    font-size: 0.75rem;
     padding: 8px 16px;
   }
 }
